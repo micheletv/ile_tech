@@ -1,0 +1,230 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /* para usar elemento como um todo e evitar conflito de border*/
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #131212f6;
+}
+.primeira{
+
+    background-image: url(fundo_header.jfif);
+    background-size: cover;
+    background-position: bottom;
+    height: 450px; 
+    padding: 20px;
+
+}
+.conteudo {
+    
+    text-align: left;
+    padding-left: 100px;
+    padding-bottom: 10px;
+    position: fixed;
+    /* padding-right: 1000px; */
+
+ }
+ 
+ .conteudo a{
+    
+    display: inline-block; 
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.295); 
+    color:#2ea25c;
+    text-decoration: none; 
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 10px 0px 0px; 
+ 
+ }
+
+ .letras{
+
+     text-align: left;
+     margin-left: 100px;
+     margin-top: 150px;
+ 
+ }
+ .letras h1 {
+
+    text-transform: uppercase;
+     color: rgba(0, 0, 0, 0.767);
+     text-shadow: 2px 2px 2px rgb(0, 128, 0);
+     font-size: 3em;
+     margin-bottom: 5px;
+     font-family: 'sedgwick ave display', cursive;
+     
+ }
+
+ .secao1 {
+
+    width: 80%;
+    margin-top: 20px; 
+    margin-left: 200px;
+}
+
+.secao1_card{
+
+    display: inline-flex;
+}
+
+.secao1_card img{
+    
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+
+} 
+.sobre{
+    background-color: rgba(176, 8, 8, 0.897);
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     justify-content: center; 
+    box-shadow: 3px 3px 1px rgba(66, 62, 62, 0.295);
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.spotify{
+
+    width: 50%;
+    margin:0 auto;
+    display: block;
+}
+.spotify h2{
+    
+    margin-top: 20px;
+    color:#2ea25c;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+
+.localiza {
+    
+
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+.localiza h2{
+    
+    margin-top: 20px;
+    color:#2ea25c;
+    background-size: cover;
+    margin-bottom: 20px;
+
+}
+.ingressos{
+    /* background-color: rgba(176, 8, 8, 0.897); */
+    width: 70%;
+    margin: 0 auto;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     justify-content: center; 
+    /* box-shadow: 3px 3px 1px rgba(66, 62, 62, 0.295); */
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+.ingressos h2{
+    margin-top: 10px;
+    margin-left: 30px;
+    color:#2ea25c;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+ .ingressos a{
+    /* margin-left: 350px;
+    margin-right: 500px;
+    /* color: rgb(139, 131, 131);  */
+    border-radius: 10px;
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: rgb(139, 131, 131);
+    margin-left: 6px;
+
+    }
+    
+ #ingressos img{
+    width: 1200px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: block;
+    /* margin-left: 700px; */
+    margin-top: 40px;
+    }
+
+.sobre h2{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    color:#2ea25c;
+    background-size: cover;
+    margin-bottom: 20px;
+
+    }
+.sobre p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    color: white;
+    }
+ .redes{
+    color:#2ea25c;
+    margin-left: 250px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    }
+  .icones {
+   
+    margin: 0 auto;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+ .íconeredes img{
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: inline-block;
+    
+    }
+.íconeredes {
+    
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+
+ }
+.íconeredes a{
+    text-decoration: none;
+    color: rgb(139, 131, 131);
+    margin-left: 6px;
+    }
+
+footer{
+    background-color: white;
+    text-align: center;
+    }
+ footer img{
+    padding: 2px;
+    }
+ footer p{
+    color: black;
+    }
+
+
+
+
